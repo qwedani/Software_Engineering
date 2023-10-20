@@ -1,2 +1,7 @@
-one, two, three = int(input),int(input),int(input)
-print(f"{one}, {two}, {three} are int")
+num = int(input("Введите число в диапозоне [0] - [10]: "))
+if num < 0 or num > 10:
+    print("Введенное число не входит в диапозон [0] - [10]")
+else:
+    if num <= 3: print(f"Число {num} входит в диапозон [0] - [3]")
+    elif num < 6: print(f"Число {num} входит в диапозон [4] - [5]")
+    else: print(f"Число {num} входит в диапозон [6] - [10]")

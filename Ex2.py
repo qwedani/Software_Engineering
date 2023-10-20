@@ -1,2 +1,4 @@
-one, two, three = 1,2,3
-print(one,two,three)
+string = "Hello world!"
+
+for i in range(len(string)-1,-1,-1):
+    print(string[i])
